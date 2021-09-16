@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1256px;
+    font-family: 'Montserrat', sans-serif;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+}
+.container__card{
+    width: 400px;
+    height:  480px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    display: flex;
+    flex-direction: column;
+}
+
+.container__card--img{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    margin-bottom: 34px;
+    min-height: 272px;
+}
+
+.container__card__article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.container__card__article--rating{
+    width: 63px;
+    height: 30px;
+    margin-left: 24px;
+    background: #6F64F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container__card__article--price{
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.container__card__info {
+    margin-left: 23px;
+}
+
+.container__card__info--h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+.container__card__info--p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 22px;
+    color: #2C2C2C;
+
+}
+
+.container__card__button{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.container__card__button--wishlist{
+    height: 45px;
+    width: 200px;
+    background: #EDEDED;
+    color: #2C2C2C;
+    border-radius: 0px 0px 0px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}   
+
+.container__card__button--addtocart{
+    height: 45px;
+    width: 200px;
+    background: #6F64F8;
+    border-radius: 0px 0px 8px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
+
+.container__card__button--wishlist > img{
+    width: 16px;   
+    height: 14px;
+    margin-right: 8px;
+}
+
+.container__card__button--addtocart > img{
+    width: 17px;   
+    height: 18px;
+    margin-right: 8px;
+    margin-top: -15px;
+}
